@@ -3,7 +3,7 @@ def count_digits(digit:int)->int:
         return 0
     digit=abs(digit)
     count=0
-    while n>0:
+    while digit>0:
         digit//10
         count+=1
     return count
